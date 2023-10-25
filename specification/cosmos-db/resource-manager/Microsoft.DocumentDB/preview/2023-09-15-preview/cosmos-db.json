@@ -11657,6 +11657,10 @@
           "type": "string",
           "format": "date-time",
           "description": "Time to which the account has to be restored (ISO-8601 format)."
+        },
+        "restoreWithTTLDisabled": {
+          "type": "boolean",
+          "description": "Flag to disable Time-To-Live purger from purging expired documents in the restored account."
         }
       }
     },
